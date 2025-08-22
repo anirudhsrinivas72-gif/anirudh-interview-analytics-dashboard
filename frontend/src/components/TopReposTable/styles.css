@@ -1,0 +1,124 @@
+.chart-container {
+  background: var(--card-background);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.chart-container h3 {
+  color: var(--text-primary);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.data-table th {
+  background: var(--background-color);
+  padding: 15px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--border-color);
+  white-space: nowrap;
+}
+
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+.table-row:hover {
+  background-color: var(--background-color);
+}
+
+.repo-name {
+  font-weight: 600;
+  min-width: 120px;
+}
+
+.repo-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.repo-link:hover {
+  color: #0256b3;
+  text-decoration: underline;
+}
+
+.repo-description {
+  max-width: 200px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.repo-stars {
+  text-align: center;
+  font-weight: 600;
+}
+
+.star-count {
+  color: #f59e0b;
+}
+
+.repo-forks {
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.repo-language {
+  text-align: center;
+}
+
+.language-badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 20px 15px;
+  }
+  
+  .data-table {
+    font-size: 13px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px 8px;
+  }
+  
+  .repo-description {
+    max-width: 150px;
+  }
+}
+
+
