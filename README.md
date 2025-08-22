@@ -121,21 +121,6 @@ The application has been tested with various GitHub usernames including:
 - `facebook`
 - `netflix`
 
-## Assumptions Made
-
-- GitHub API rate limits (60 requests/hour for unauthenticated requests)
-- Users have stable internet connection
-- Modern browser support (ES6+ features)
-- GitHub usernames are valid and exist
-- Repository data is publicly accessible
-
-## Known Limitations
-
-- GitHub API rate limiting for unauthenticated requests
-- No support for private repositories
-- Limited to public user/organization data
-- Chart.js dependency for data visualization
-
 ## License
 
 MIT License - feel free to use this project for learning and development purposes.
