@@ -111,15 +111,6 @@ npm start
 - **Export Features**: PDF/CSV export of analytics data
 - **Real-time Updates**: WebSocket integration for live data
 - **Mobile App**: React Native mobile application
-- **Dark Mode**: Theme switching capability
-- **Internationalization**: Multi-language support
-
-## Time Spent
-
-- **Core Development**: 45-60 minutes
-- **UI/UX Polish**: 15-20 minutes
-- **Documentation**: 10-15 minutes
-- **Total**: ~90 minutes
 
 ## Testing
 
